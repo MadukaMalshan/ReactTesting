@@ -7,6 +7,7 @@ import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import Food from './Food.jsx'
 import Card from './Card.jsx'
+import Student from './Student.jsx'
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -125,6 +126,7 @@ function App(){
     <Card></Card>
     <Food></Food>
     <Footer></Footer>
+    <Student name ="Spongebob" age = "20" isStudent={false} ></Student>
     </>
   );
 }
